@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: "Wellington Pereira | Construindo produtos, marcas e experiências digitais",
     description: "Construindo produtos, marcas e experiências digitais. Desenvolvendo soluções inovadoras para marcas e empresas.",
-    url: "https://www.seusite.com",
+    url: "https://wellington.dev",
     type: "website",
     images: "/logo.svg",
   },

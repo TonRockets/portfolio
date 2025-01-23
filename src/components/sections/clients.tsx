@@ -7,9 +7,9 @@ import 'swiper/css';
 
 import { CLIENTS } from "lib/constants"
 
-SwiperCore.use([Autoplay]);
 
 export const Clients = () => {
+  SwiperCore.use([Autoplay]);
   const [swiper, setSwiper] = useState<SwiperCore | null>(null);
 
   useEffect(() => {
