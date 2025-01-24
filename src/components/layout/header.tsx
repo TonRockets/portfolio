@@ -4,7 +4,7 @@ import { Container } from "components/ui/container"
 export const Header = () => {
   return (
     <header className="p-4">
-      <Container className="flex justify-between items-center xs:flex-col xs:gap-6">
+      <Container className="flex justify-between items-center md:flex-row xs:flex-col xs:gap-6">
         <div className="text-sm text-zinc-500">wellington.pereira@al.forsoft.org.br</div>
         <nav className="flex gap-4 text-sm text-zinc-500">
           <Link href="https://linkedin.com/in/wellingtonpsantos" target="_blank" className="hover:text-white transition-colors cursor-pointer">
